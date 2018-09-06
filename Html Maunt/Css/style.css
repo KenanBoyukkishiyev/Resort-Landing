@@ -119,12 +119,50 @@
 .rooms .back img {
   height: 220px;
   width: 350px;
+  transition: all 0.6s ease-in-out;
 }
-.rooms .back .guest_room ul li {
-  display: inline-block;
+.rooms .back img:hover {
+  height: 100%;
+  width: 100%;
 }
-.rooms .back .guest_room ul li span {
-  padding: 0 17px;
+.rooms .back .guest_room {
+  display: flex;
+}
+.rooms .back .guest_room span {
+  display: flex;
+  margin: -25px 0;
+  padding: 0px 14px;
+}
+.rooms .back .guest_room span i {
+  font-size: 20px;
+  padding: 0px 10px;
+}
+.rooms .back .room_text {
+  text-align: left;
+  margin: 20px 30px;
+}
+.rooms .back .room_btn {
+  text-align: center;
+}
+.rooms .back .room_btn button {
+  color: #709faf;
+  background-color: #fff;
+  height: 50px;
+  border: 2px solid #709faf;
+  width: 230px;
+  transition: all 0.6s ease-in-out;
+}
+.rooms .back .room_btn button:hover {
+  background-color: #709faf;
+  color: #fff;
+}
+.rooms .back .room_href {
+  text-decoration: none;
+  color: #709faf;
+}
+.rooms .back .room_href:hover {
+  color: #709faf;
+  text-decoration: none;
 }
 
 .top {
