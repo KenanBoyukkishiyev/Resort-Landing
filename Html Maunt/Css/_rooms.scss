@@ -1,0 +1,44 @@
+.rooms{
+	padding: 100px 0;
+	background-image: url(../Img/house.jpeg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 900px;
+	background-color: $boz;
+	.our{
+		color:#fff;
+		h1{
+			font-size: 50px;
+		}
+		
+	}
+	.back{
+		background-color: #fff;
+		position: relative;
+		height: 650px;
+		width: 350px;
+		.back_title{
+		margin: 40px 35px;
+		}
+		img{
+			height: 220px;
+			width: 350px;
+		}
+
+		.guest_room{
+			ul{
+				li{
+					display: inline-block;
+					span{
+						padding: 0 17px;
+					}
+
+				}
+			}
+		}
+	}
+
+
+
+}
